@@ -7,7 +7,7 @@ AMI_DESCRIPTION="ami-backup-script"
 
 if [ -z $ACTION ];
 then
-echo "Usage $1: Define ACTION of backup or delete"
+echo "Usage $1: Define ACTION of backup or delete or create or terminate"
 exit 1
 fi
 
