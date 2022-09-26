@@ -13,3 +13,8 @@ resource "aws_eip" "ec2" {
 vpc = true
 instance = aws_instance.ec2.id
 }
+resource "aws_ami_from_instance" "example" {
+  name               = "terraform-example"
+  source_instance_id = "$action1"
+}
+
