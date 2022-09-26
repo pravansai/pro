@@ -9,7 +9,7 @@ key_name = "pro"
 }
 resource "aws_ami_from_instance" "example" {
   name               = "terraform"
-  source_instance_id = "i-05163207af2a98ebd"
+  source_instance_id = "$amicreation"
 }
 
 
