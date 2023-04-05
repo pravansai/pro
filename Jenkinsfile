@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Copy') {
             steps {
-                bat 'copy.sh arg1.txt'
+                bat 'copy.sh'
             }
         }
     }
