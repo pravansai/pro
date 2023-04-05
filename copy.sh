@@ -1,4 +1,4 @@
 #!/bin/bash
 dir
-ipconfig
-hostname
+ipconfig.exe
+hostname.exe
